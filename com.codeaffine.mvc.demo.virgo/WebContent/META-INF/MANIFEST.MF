@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Class-Path: 
+Bundle-Version: 1.0.0
+Bundle-Name: virgo.sample.rap
+Bundle-ManifestVersion: 2
+Bundle-Description: virgo.sample.rap
+Bundle-SymbolicName: virgo.sample.rap
+Web-ContextPath: /
+Import-Library: org.springframework.spring;version="[3.0.5.RELEASE,4)"
+Import-Bundle: com.springsource.javax.servlet.jsp.jstl;version="[1.2.0.v20110728,1.2.0.v20110728]"
+Require-Bundle: org.eclipse.rap.rwt,
+ com.springsource.net.sf.cglib
+Import-Package: 
+ javax.servlet,
+ javax.servlet.http,
+ org.eclipse.virgo.web.dm;version="[3.0,5.0)"
+Bundle-ClassPath: /WEB-INF/classes/
